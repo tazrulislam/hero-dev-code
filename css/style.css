@@ -1,0 +1,60 @@
+/* Universal Seclector */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Shared Styles */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo h2{
+  font-size: 45px;
+  font-weight: 900;
+
+}
+.color-orange{
+  color: #FD6E0A;
+}
+.btn{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #FD6E0A;
+  border: none;
+  padding: 18px 35px;
+  /* width: 150px;
+  height: 65px; */
+  border-radius: 5px;
+}
+
+
+/* Main Style  */
+header{
+  background-color: #FFF8F3;
+  padding-top: 51px;
+}
+nav{
+  width: 81%;
+  max-width: 1249px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+  justify-content:  space-between;
+}
+nav .menu{
+  display: flex;
+  gap: 51px;
+  text-decoration: none;
+  /* list-style: none; */
+  list-style-type: none;
+  align-items: center;
+}
+nav .menu a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #474747;
+}
